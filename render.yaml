@@ -1,0 +1,13 @@
+# Exported from Render on 2024-10-26T11:31:43Z
+services:
+- type: web
+  name: open-webui
+  runtime: docker
+  repo: https://github.com/Cminors/open-webui
+  plan: free
+  region: singapore
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+  domains:
+  - c.cminor.us.kg
+version: "1"
